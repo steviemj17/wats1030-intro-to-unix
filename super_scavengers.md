@@ -7,3 +7,7 @@ The following individuals have completed the Stretch Goal Scavenger Hunt success
 * Ryan Amarit
 * Dov Dekeyser
 * Luke Schaefer
+* Kristi Short
+* Ashley Salazar
+* Jeff Salazar
+* Dineen Schmidt
