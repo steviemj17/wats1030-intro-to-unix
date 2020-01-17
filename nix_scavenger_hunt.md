@@ -106,12 +106,36 @@ Last updated: 01-15-2015
 ./tmp
 
 * Use the `grep` command to search for text within a file. Use `grep` on all the `.user` files in `challenge_files` to find which files contain "WA" (the abbreviation for Washington state). *How many files did you find?*
-
+ritt-Erdman.user:O'Harachester, WA 37261
+Lissie-Strosin.user:Jewessfurt, WA 00816-7241
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. *Paste the result showing the file and line where the word "Waldo" shows up.*
+./serial-numbers/eaque_molestiae.txt
 
 ### Pipes and Connecting Commands
 
 * Sometimes it's useful to output the results of a command to a text file for further analysis, reference, or processing. Try running `ls > files.txt`. Notice that the file `files.txt` was created. View that file using `more`. *What do you see in the `files.txt` file?*
+xt
+01
+2015_special_stuff.demo
+Afton-Jast.user
+Aimee-Maggio.user
+Alfonso-Gottlieb.user
+Allen-Kemmer.user
+Almina-Cormier.user
+Alta-Lemke.user
+Amina-McGlynn.user
+Anabel-Hammes.user
+Ancel-Conn.user
+Anjali-Halvorson.user
+files.txt
+
 * Notice that if you run `ls -alh` in the `challenge_files` directory, the files scroll by very quickly. Sometimes it would be better to get the results in a paginated format. Try running `ls -alh | more`. *Describe what you see when you run `ls -alh | more`.*
+Very long list of files, but I can't decifer what this means. There's a total of 864
+
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
+tephenjohnson    5447   0.0  0.0  4312164   1536 s007  Ss    9:20PM   0:00.05 /bin/bash -l
+stephenjohnson    5362   0.0  0.0  4307828   3600 s006  S+    9:18PM   0:00.01 /usr/local/git/libexec/git-core/git-remote-https origin https://github.com/steviemj17/wats1030-intro-to-unix.git
+stephenjohnson    5361   0.0  0.0  4281184   1680 s006  S+    9:18PM   0:00.00 git push
+stephenjohnson    5348   0.0  0.0  4318308   1652 s006  S     9:17PM   0:00.03 -bash
+Stephens-MacBook-Pro:challenge_files stephenjohnson$ 
